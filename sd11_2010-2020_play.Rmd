@@ -152,18 +152,18 @@ prec_elec_map_2016 <- precincts_2016 %>%
   full_join(prec_2016_wide, by = c("PCTCODE" = "precinct_num"))
 
 
-ggplot(prec_elec_map_2018 %>% filter(MNSENDIST == "11"), aes(fill = R_perc)) + 
+ggplot(prec_elec_map_2018 %>% filter(MNSENDIST == "11"), aes(fill = total_race_votes)) + 
   geom_sf(color = "grey30", lwd = 0.25) + 
-  theme_void() + scale_fill_gradient(low = "white", high = "red")
-ggplot(prec_elec_map_2016 %>% filter(MNSENDIST == "11"), aes(fill = R_perc)) + 
+  theme_void() + scale_fill_gradient(low = "white", high = "blue")
+ggplot(prec_elec_map_2016 %>% filter(MNSENDIST == "11"), aes(fill = total_race_votes)) + 
   geom_sf(color = "grey30", lwd = 0.25) + 
-  theme_void() + scale_fill_gradient(low = "white", high = "red")
-ggplot(prec_elec_map_2014 %>% filter(MNSENDIST == "11"), aes(fill = R_perc)) + 
+  theme_void() + scale_fill_gradient(low = "white", high = "blue")
+ggplot(prec_elec_map_2014 %>% filter(MNSENDIST == "11"), aes(fill = total_race_votes)) + 
   geom_sf(color = "grey30", lwd = 0.25) + 
-  theme_void() + scale_fill_gradient(low = "white", high = "red")
-ggplot(prec_elec_map_2012 %>% filter(MNSENDIST == "11"), aes(fill = R_perc)) + 
+  theme_void() + scale_fill_gradient(low = "white", high = "blue")
+ggplot(prec_elec_map_2012 %>% filter(MNSENDIST == "11"), aes(fill = total_race_votes)) + 
   geom_sf(color = "grey30", lwd = 0.25) + 
-  theme_void() + scale_fill_gradient(low = "white", high = "red")
+  theme_void() + scale_fill_gradient(low = "white", high = "blue")
 
 
 
