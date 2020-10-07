@@ -148,17 +148,94 @@ prec_2016_wide %>%
 
 ```{r}
 
-orec_elec_map <- precincts_2016 %>% 
+prec_elec_map_2016 <- precincts_2016 %>% 
   full_join(prec_2016_wide, by = c("PCTCODE" = "precinct_num"))
 
-ggplot(orec_elec_map %>% filter(MNSENDIST == "11"), aes(fill = total_race_votes)) + 
+
+ggplot(prec_elec_map_2018 %>% filter(MNSENDIST == "11"), aes(fill = R_perc)) + 
   geom_sf(color = "grey30", lwd = 0.25) + 
-  theme_void() + scale_fill_gradient(low = "white", high = "blue")
+  theme_void() + scale_fill_gradient(low = "white", high = "red")
+ggplot(prec_elec_map_2016 %>% filter(MNSENDIST == "11"), aes(fill = R_perc)) + 
+  geom_sf(color = "grey30", lwd = 0.25) + 
+  theme_void() + scale_fill_gradient(low = "white", high = "red")
+ggplot(prec_elec_map_2014 %>% filter(MNSENDIST == "11"), aes(fill = R_perc)) + 
+  geom_sf(color = "grey30", lwd = 0.25) + 
+  theme_void() + scale_fill_gradient(low = "white", high = "red")
+ggplot(prec_elec_map_2012 %>% filter(MNSENDIST == "11"), aes(fill = R_perc)) + 
+  geom_sf(color = "grey30", lwd = 0.25) + 
+  theme_void() + scale_fill_gradient(low = "white", high = "red")
 
 
 
 ```
 
+```{r}
+
+# 2018 reps
+
+prec_2018 <- read.delim("precinct_level_state_leg/2018_reps.txt", 
+  sep = ";", header = FALSE, col.names = elec.col.names) %>% 
+  mutate(precinct_num = sprintf("%04d", precinct_num))
+
+prec_2018_wide <- prec_2018 %>% 
+  select(precinct_num, district, party_affiliation, candidate_votes, total_race_votes) %>% 
+  filter(district %in% c("11A", "11B")) %>% 
+  pivot_wider(names_from = party_affiliation, values_from = candidate_votes) %>% 
+  mutate(R_perc = 100*(R/total_race_votes),
+         DFL_perc = 100*(DFL/total_race_votes)) %>% 
+  select(precinct_num, district, DFL, R, DFL_perc, R_perc, total_race_votes, WI)
+
+prec_2018_wide %>% 
+  group_by(district) %>% 
+  summarize(n = sum(total_race_votes))
+
+prec_elec_map_2018 <- precincts_2018 %>% 
+  full_join(prec_2018_wide, by = c("PCTCODE" = "precinct_num"))
+
+# 2014 reps
+
+prec_2014 <- read.delim("precinct_level_state_leg/2014_reps.txt", 
+  sep = ";", header = FALSE, col.names = elec.col.names) %>% 
+  mutate(precinct_num = sprintf("%04d", precinct_num))
+
+prec_2014_wide <- prec_2014 %>% 
+  select(precinct_num, district, party_affiliation, candidate_votes, total_race_votes) %>% 
+  filter(district %in% c("11A", "11B")) %>% 
+  pivot_wider(names_from = party_affiliation, values_from = candidate_votes) %>% 
+  mutate(R_perc = 100*(R/total_race_votes),
+         DFL_perc = 100*(DFL/total_race_votes)) %>% 
+  select(precinct_num, district, DFL, R, DFL_perc, R_perc, total_race_votes, WI)
+
+prec_2014_wide %>% 
+  group_by(district) %>% 
+  summarize(n = sum(total_race_votes))
+
+prec_elec_map_2014 <- precincts_2014 %>% 
+  full_join(prec_2014_wide, by = c("PCTCODE" = "precinct_num"))
+
+# 2012 reps
+
+prec_2012 <- read.delim("precinct_level_state_leg/2012_reps.txt", 
+  sep = ";", header = FALSE, col.names = elec.col.names) %>% 
+  mutate(precinct_num = sprintf("%04d", precinct_num))
+
+prec_2012_wide <- prec_2012 %>% 
+  select(precinct_num, district, party_affiliation, candidate_votes, total_race_votes) %>% 
+  filter(district %in% c("11A", "11B")) %>% 
+  pivot_wider(names_from = party_affiliation, values_from = candidate_votes) %>% 
+  mutate(R_perc = 100*(R/total_race_votes),
+         DFL_perc = 100*(DFL/total_race_votes)) %>% 
+  select(precinct_num, district, DFL, R, DFL_perc, R_perc, total_race_votes, WI)
+
+prec_2012_wide %>% 
+  group_by(district) %>% 
+  summarize(n = sum(total_race_votes))
+
+prec_elec_map_2012 <- precincts_2012 %>% 
+  full_join(prec_2012_wide, by = c("PCTCODE" = "precinct_num"))
+
+
+```
 
 
 
