@@ -1,0 +1,172 @@
+---
+title: "mn_sd11_2020"
+author: "Luke Kolar"
+date: "10/7/2020"
+output: html_document
+---
+
+
+```{r}
+library(geojsonio)
+library(rgdal)
+library(raster)
+library(rgeos)
+library(cowplot)
+library(rcartocolor)
+library(zipcodeR)
+library(broom)
+library(sf)
+library(janitor)
+
+library(tidyverse)
+```
+
+
+```{r}
+
+## 2019
+
+precincts_2019_old <- readOGR( 
+  dsn = paste0(getwd(),"/vtd_files/2019vtd/"), 
+  layer = "bdry_votingdistricts",
+  verbose = FALSE) 
+
+precincts_2019_sp <- spTransform(precincts_2019_old, 
+            CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0"))
+
+precincts_2019 <- st_as_sf(precincts_2019_sp)
+
+## 2018
+
+precincts_2018_old <- readOGR( 
+  dsn = paste0(getwd(),"/vtd_files/2018vtd/"), 
+  layer = "vtd2018general",
+  verbose = FALSE) 
+
+precincts_2018_sp <- spTransform(precincts_2018_old, 
+            CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0"))
+
+precincts_2018 <- st_as_sf(precincts_2018_sp)
+
+## 2016
+
+precincts_2016_old <- readOGR( 
+  dsn = paste0(getwd(),"/vtd_files/2016vtd/"), 
+  layer = "vtd2016general",
+  verbose = FALSE) 
+
+precincts_2016_sp <- spTransform(precincts_2016_old, 
+            CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0"))
+
+precincts_2016 <- st_as_sf(precincts_2016_sp)
+
+## 2014
+
+precincts_2014_old <- readOGR( 
+  dsn = paste0(getwd(),"/vtd_files/2014vtd/"), 
+  layer = "vtd2014general",
+  verbose = FALSE) 
+
+precincts_2014_sp <- spTransform(precincts_2014_old, 
+            CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0"))
+
+precincts_2014 <- st_as_sf(precincts_2014_sp)
+
+## 2012
+
+precincts_2012_old <- readOGR( 
+  dsn = paste0(getwd(),"/vtd_files/2012vtd/"), 
+  layer = "vtd2012general",
+  verbose = FALSE) 
+
+precincts_2012_sp <- spTransform(precincts_2012_old, 
+            CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0"))
+
+precincts_2012 <- st_as_sf(precincts_2012_sp) %>% 
+  rename(MNLEGDIST = LEGDIST) %>% 
+  mutate(MNLEGDIST = as.character(MNLEGDIST)) %>% 
+  mutate(MNSENDIST = str_match(MNLEGDIST, "[:digit:]*")) %>% 
+  mutate(MNLEGDIST = as.factor(MNLEGDIST),
+         MNSENDIST = as.factor(MNSENDIST)) %>% 
+  select(!SENDIST)
+
+```
+
+```{r}
+
+ggplot(precincts_2019 %>% filter(MNSENDIST == "11"), aes(fill = MNLEGDIST)) + 
+  geom_sf(color = "grey30", lwd = 0.25) + 
+  theme_void()
+
+ggplot(precincts_2018 %>% filter(MNSENDIST == "11"), aes(fill = MNLEGDIST)) + 
+  geom_sf(color = "grey30", lwd = 0.25) + 
+  theme_void()
+
+ggplot(precincts_2016 %>% filter(MNSENDIST == "11"), aes(fill = MNLEGDIST)) + 
+  geom_sf(color = "grey30", lwd = 0.25) + 
+  theme_void()
+
+ggplot(precincts_2014 %>% filter(MNSENDIST == "11"), aes(fill = MNLEGDIST)) + 
+  geom_sf(color = "grey30", lwd = 0.25) + 
+  theme_void()
+
+ggplot(precincts_2012 %>% filter(MNSENDIST == "11"), aes(fill = MNLEGDIST)) + 
+  geom_sf(color = "grey30", lwd = 0.25) + 
+  theme_void()
+
+glimpse(precincts_2012)
+
+```
+
+```{r}
+
+elec.col.names <- c("state", "county_id", "precinct_num",
+                    "office_id", "office_name", "district", 
+                    "candidate_order_code", "candidate_name",
+                    "suffix", "incumbent_code", "party_affiliation",
+                    "num_precincts_reporting", "total_num_precincts_voting",
+                    "candidate_votes", "candidate_percent_vote", "total_race_votes")
+
+prec_2016 <- read.delim("precinct_level_state_leg/2016_reps.txt", 
+  sep = ";", header = FALSE, col.names = elec.col.names) %>% 
+  mutate(precinct_num = sprintf("%04d", precinct_num))
+
+prec_2016_wide <- prec_2016 %>% 
+  select(precinct_num, district, party_affiliation, candidate_votes, total_race_votes) %>% 
+  filter(district %in% c("11A", "11B")) %>% 
+  pivot_wider(names_from = party_affiliation, values_from = candidate_votes) %>% 
+  mutate(R_perc = 100*(R/total_race_votes),
+         DFL_perc = 100*(DFL/total_race_votes)) %>% 
+  select(precinct_num, district, DFL, R, DFL_perc, R_perc, total_race_votes, WI)
+
+prec_2016_wide %>% 
+  group_by(district) %>% 
+  summarize(n = sum(total_race_votes))
+
+```
+
+
+```{r}
+
+orec_elec_map <- precincts_2016 %>% 
+  full_join(prec_2016_wide, by = c("PCTCODE" = "precinct_num"))
+
+ggplot(orec_elec_map %>% filter(MNSENDIST == "11"), aes(fill = total_race_votes)) + 
+  geom_sf(color = "grey30", lwd = 0.25) + 
+  theme_void() + scale_fill_gradient(low = "white", high = "blue")
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
