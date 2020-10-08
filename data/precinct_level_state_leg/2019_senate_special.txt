@@ -1,0 +1,412 @@
+MN;09;0005;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;1;0.87;115
+MN;09;0005;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;65;56.52;115
+MN;09;0005;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;47;40.87;115
+MN;09;0005;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;2;1.74;115
+MN;09;0010;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;0;0.00;28
+MN;09;0010;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;13;46.43;28
+MN;09;0010;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;15;53.57;28
+MN;09;0010;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;28
+MN;09;0015;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;4;6.67;60
+MN;09;0015;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;14;23.33;60
+MN;09;0015;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;42;70.00;60
+MN;09;0015;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;60
+MN;09;0020;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;6;2.15;279
+MN;09;0020;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;129;46.24;279
+MN;09;0020;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;144;51.61;279
+MN;09;0020;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;279
+MN;09;0025;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;4;10.26;39
+MN;09;0025;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;25;64.10;39
+MN;09;0025;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;10;25.64;39
+MN;09;0025;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;39
+MN;09;0030;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;3;1.21;247
+MN;09;0030;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;117;47.37;247
+MN;09;0030;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;126;51.01;247
+MN;09;0030;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;1;0.40;247
+MN;09;0035;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;3;1.43;210
+MN;09;0035;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;72;34.29;210
+MN;09;0035;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;135;64.29;210
+MN;09;0035;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;210
+MN;09;0040;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;5;1.00;501
+MN;09;0040;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;213;42.52;501
+MN;09;0040;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;283;56.49;501
+MN;09;0040;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;501
+MN;09;0045;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;6;2.13;282
+MN;09;0045;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;122;43.26;282
+MN;09;0045;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;153;54.26;282
+MN;09;0045;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;1;0.35;282
+MN;09;0050;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;6;1.68;358
+MN;09;0050;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;118;32.96;358
+MN;09;0050;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;234;65.36;358
+MN;09;0050;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;358
+MN;09;0055;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;11;2.68;410
+MN;09;0055;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;138;33.66;410
+MN;09;0055;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;260;63.41;410
+MN;09;0055;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;1;0.24;410
+MN;09;0060;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;8;1.82;439
+MN;09;0060;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;184;41.91;439
+MN;09;0060;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;245;55.81;439
+MN;09;0060;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;2;0.46;439
+MN;09;0065;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;6;8.45;71
+MN;09;0065;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;7;9.86;71
+MN;09;0065;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;58;81.69;71
+MN;09;0065;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;71
+MN;09;0068;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;0;0.00;51
+MN;09;0068;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;23;45.10;51
+MN;09;0068;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;28;54.90;51
+MN;09;0068;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;51
+MN;09;0070;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;0;0.00;47
+MN;09;0070;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;17;36.17;47
+MN;09;0070;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;30;63.83;47
+MN;09;0070;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;47
+MN;09;0075;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;1;2.38;42
+MN;09;0075;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;12;28.57;42
+MN;09;0075;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;28;66.67;42
+MN;09;0075;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;1;2.38;42
+MN;09;0080;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;1;0.70;142
+MN;09;0080;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;58;40.85;142
+MN;09;0080;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;83;58.45;142
+MN;09;0080;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;142
+MN;09;0085;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;2;2.74;73
+MN;09;0085;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;34;46.58;73
+MN;09;0085;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;36;49.32;73
+MN;09;0085;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;1;1.37;73
+MN;09;0090;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;2;2.22;90
+MN;09;0090;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;49;54.44;90
+MN;09;0090;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;37;41.11;90
+MN;09;0090;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;2;2.22;90
+MN;09;0095;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;2;5.71;35
+MN;09;0095;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;11;31.43;35
+MN;09;0095;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;22;62.86;35
+MN;09;0095;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;35
+MN;09;0100;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;0;0.00;65
+MN;09;0100;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;28;43.08;65
+MN;09;0100;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;37;56.92;65
+MN;09;0100;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;65
+MN;09;0105;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;1;0.68;146
+MN;09;0105;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;63;43.15;146
+MN;09;0105;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;82;56.16;146
+MN;09;0105;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;146
+MN;09;0110;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;7;2.30;305
+MN;09;0110;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;104;34.10;305
+MN;09;0110;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;192;62.95;305
+MN;09;0110;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;2;0.66;305
+MN;09;0115;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;7;2.90;241
+MN;09;0115;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;112;46.47;241
+MN;09;0115;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;122;50.62;241
+MN;09;0115;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;241
+MN;09;0118;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;0;0.00;10
+MN;09;0118;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;0;0.00;10
+MN;09;0118;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;10;100.00;10
+MN;09;0118;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;10
+MN;09;0120;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;5;2.54;197
+MN;09;0120;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;66;33.50;197
+MN;09;0120;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;124;62.94;197
+MN;09;0120;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;2;1.02;197
+MN;09;0125;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;3;3.30;91
+MN;09;0125;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;49;53.85;91
+MN;09;0125;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;37;40.66;91
+MN;09;0125;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;2;2.20;91
+MN;09;0130;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;3;4.41;68
+MN;09;0130;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;31;45.59;68
+MN;09;0130;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;33;48.53;68
+MN;09;0130;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;1;1.47;68
+MN;09;0135;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;5;2.84;176
+MN;09;0135;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;73;41.48;176
+MN;09;0135;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;98;55.68;176
+MN;09;0135;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;176
+MN;09;0140;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;3;1.83;164
+MN;09;0140;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;86;52.44;164
+MN;09;0140;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;74;45.12;164
+MN;09;0140;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;1;0.61;164
+MN;09;0145;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;3;2.21;136
+MN;09;0145;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;64;47.06;136
+MN;09;0145;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;69;50.74;136
+MN;09;0145;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;136
+MN;09;0150;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;3;2.91;103
+MN;09;0150;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;43;41.75;103
+MN;09;0150;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;57;55.34;103
+MN;09;0150;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;103
+MN;09;0155;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;1;1.75;57
+MN;09;0155;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;26;45.61;57
+MN;09;0155;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;30;52.63;57
+MN;09;0155;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;57
+MN;09;0165;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;3;0.28;1055
+MN;09;0165;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;455;43.13;1055
+MN;09;0165;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;595;56.40;1055
+MN;09;0165;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;2;0.19;1055
+MN;09;0170;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;11;2.08;530
+MN;09;0170;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;238;44.91;530
+MN;09;0170;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;281;53.02;530
+MN;09;0170;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;530
+MN;09;0175;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;8;6.30;127
+MN;09;0175;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;36;28.35;127
+MN;09;0175;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;82;64.57;127
+MN;09;0175;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;1;0.79;127
+MN;09;0180;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;3;1.92;156
+MN;09;0180;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;64;41.03;156
+MN;09;0180;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;89;57.05;156
+MN;09;0180;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;156
+MN;09;0185;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;0;0.00;17
+MN;09;0185;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;11;64.71;17
+MN;09;0185;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;6;35.29;17
+MN;09;0185;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;17
+MN;33;0010;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;4;1.21;330
+MN;33;0010;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;194;58.79;330
+MN;33;0010;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;132;40.00;330
+MN;33;0010;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;330
+MN;33;0015;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;0;0.00;0
+MN;33;0015;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;0;0.00;0
+MN;33;0015;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;0;0.00;0
+MN;33;0015;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;0
+MN;33;0020;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;4;1.83;219
+MN;33;0020;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;142;64.84;219
+MN;33;0020;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;73;33.33;219
+MN;33;0020;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;219
+MN;33;0025;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;3;1.39;216
+MN;33;0025;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;159;73.61;216
+MN;33;0025;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;54;25.00;216
+MN;33;0025;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;216
+MN;33;0035;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;4;2.21;181
+MN;33;0035;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;143;79.01;181
+MN;33;0035;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;34;18.78;181
+MN;33;0035;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;181
+MN;33;0040;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;0;0.00;16
+MN;33;0040;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;9;56.25;16
+MN;33;0040;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;7;43.75;16
+MN;33;0040;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;16
+MN;33;0060;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;6;2.60;231
+MN;33;0060;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;142;61.47;231
+MN;33;0060;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;83;35.93;231
+MN;33;0060;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;231
+MN;33;0065;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;2;2.99;67
+MN;33;0065;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;48;71.64;67
+MN;33;0065;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;17;25.37;67
+MN;33;0065;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;67
+MN;33;0070;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;7;1.41;498
+MN;33;0070;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;253;50.80;498
+MN;33;0070;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;238;47.79;498
+MN;33;0070;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;498
+MN;33;0090;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;3;2.68;112
+MN;33;0090;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;85;75.89;112
+MN;33;0090;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;24;21.43;112
+MN;33;0090;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;112
+MN;33;0095;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;0;0.00;22
+MN;33;0095;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;15;68.18;22
+MN;33;0095;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;7;31.82;22
+MN;33;0095;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;22
+MN;33;0105;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;3;1.55;193
+MN;33;0105;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;124;64.25;193
+MN;33;0105;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;66;34.20;193
+MN;33;0105;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;193
+MN;58;0005;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;1;1.08;93
+MN;58;0005;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;61;65.59;93
+MN;58;0005;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;31;33.33;93
+MN;58;0005;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;93
+MN;58;0010;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;2;11.11;18
+MN;58;0010;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;9;50.00;18
+MN;58;0010;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;7;38.89;18
+MN;58;0010;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;18
+MN;58;0015;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;2;2.47;81
+MN;58;0015;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;36;44.44;81
+MN;58;0015;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;43;53.09;81
+MN;58;0015;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;81
+MN;58;0020;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;1;0.92;109
+MN;58;0020;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;69;63.30;109
+MN;58;0020;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;39;35.78;109
+MN;58;0020;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;109
+MN;58;0025;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;3;5.17;58
+MN;58;0025;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;27;46.55;58
+MN;58;0025;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;28;48.28;58
+MN;58;0025;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;58
+MN;58;0030;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;3;5.00;60
+MN;58;0030;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;32;53.33;60
+MN;58;0030;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;25;41.67;60
+MN;58;0030;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;60
+MN;58;0035;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;0;0.00;12
+MN;58;0035;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;8;66.67;12
+MN;58;0035;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;4;33.33;12
+MN;58;0035;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;12
+MN;58;0040;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;1;1.33;75
+MN;58;0040;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;57;76.00;75
+MN;58;0040;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;17;22.67;75
+MN;58;0040;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;75
+MN;58;0045;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;1;3.33;30
+MN;58;0045;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;13;43.33;30
+MN;58;0045;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;16;53.33;30
+MN;58;0045;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;30
+MN;58;0050;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;2;3.92;51
+MN;58;0050;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;23;45.10;51
+MN;58;0050;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;26;50.98;51
+MN;58;0050;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;51
+MN;58;0055;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;2;0.96;209
+MN;58;0055;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;149;71.29;209
+MN;58;0055;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;58;27.75;209
+MN;58;0055;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;209
+MN;58;0060;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;1;1.14;88
+MN;58;0060;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;74;84.09;88
+MN;58;0060;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;13;14.77;88
+MN;58;0060;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;88
+MN;58;0065;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;0;0.00;29
+MN;58;0065;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;20;68.97;29
+MN;58;0065;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;9;31.03;29
+MN;58;0065;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;29
+MN;58;0070;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;0;0.00;29
+MN;58;0070;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;28;96.55;29
+MN;58;0070;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;1;3.45;29
+MN;58;0070;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;29
+MN;58;0075;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;3;1.65;182
+MN;58;0075;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;114;62.64;182
+MN;58;0075;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;65;35.71;182
+MN;58;0075;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;182
+MN;58;0080;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;0;0.00;8
+MN;58;0080;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;7;87.50;8
+MN;58;0080;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;1;12.50;8
+MN;58;0080;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;8
+MN;58;0085;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;1;1.45;69
+MN;58;0085;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;50;72.46;69
+MN;58;0085;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;18;26.09;69
+MN;58;0085;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;69
+MN;58;0090;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;0;0.00;134
+MN;58;0090;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;101;75.37;134
+MN;58;0090;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;33;24.63;134
+MN;58;0090;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;134
+MN;58;0095;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;2;5.41;37
+MN;58;0095;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;24;64.86;37
+MN;58;0095;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;11;29.73;37
+MN;58;0095;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;37
+MN;58;0100;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;1;9.09;11
+MN;58;0100;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;5;45.45;11
+MN;58;0100;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;5;45.45;11
+MN;58;0100;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;11
+MN;58;0105;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;7;2.59;270
+MN;58;0105;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;136;50.37;270
+MN;58;0105;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;127;47.04;270
+MN;58;0105;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;270
+MN;58;0110;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;3;1.38;218
+MN;58;0110;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;158;72.48;218
+MN;58;0110;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;57;26.15;218
+MN;58;0110;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;218
+MN;58;0115;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;0;0.00;18
+MN;58;0115;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;4;22.22;18
+MN;58;0115;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;14;77.78;18
+MN;58;0115;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;18
+MN;58;0120;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;5;4.76;105
+MN;58;0120;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;43;40.95;105
+MN;58;0120;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;57;54.29;105
+MN;58;0120;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;105
+MN;58;0125;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;0;0.00;130
+MN;58;0125;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;75;57.69;130
+MN;58;0125;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;55;42.31;130
+MN;58;0125;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;130
+MN;58;0135;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;4;3.20;125
+MN;58;0135;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;86;68.80;125
+MN;58;0135;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;35;28.00;125
+MN;58;0135;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;125
+MN;58;0140;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;4;7.69;52
+MN;58;0140;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;40;76.92;52
+MN;58;0140;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;8;15.38;52
+MN;58;0140;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;52
+MN;58;0145;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;0;0.00;18
+MN;58;0145;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;7;38.89;18
+MN;58;0145;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;11;61.11;18
+MN;58;0145;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;18
+MN;58;0150;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;0;0.00;51
+MN;58;0150;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;25;49.02;51
+MN;58;0150;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;26;50.98;51
+MN;58;0150;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;51
+MN;58;0155;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;1;1.19;84
+MN;58;0155;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;44;52.38;84
+MN;58;0155;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;39;46.43;84
+MN;58;0155;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;84
+MN;58;0160;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;0;0.00;46
+MN;58;0160;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;23;50.00;46
+MN;58;0160;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;23;50.00;46
+MN;58;0160;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;46
+MN;58;0165;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;2;14.29;14
+MN;58;0165;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;6;42.86;14
+MN;58;0165;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;6;42.86;14
+MN;58;0165;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;14
+MN;58;0170;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;0;0.00;201
+MN;58;0170;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;137;68.16;201
+MN;58;0170;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;64;31.84;201
+MN;58;0170;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;201
+MN;58;0175;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;12;2.15;559
+MN;58;0175;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;327;58.50;559
+MN;58;0175;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;220;39.36;559
+MN;58;0175;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;559
+MN;58;0185;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;5;1.49;336
+MN;58;0185;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;224;66.67;336
+MN;58;0185;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;107;31.85;336
+MN;58;0185;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;336
+MN;58;0190;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;1;0.62;161
+MN;58;0190;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;109;67.70;161
+MN;58;0190;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;51;31.68;161
+MN;58;0190;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;161
+MN;58;0195;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;8;1.38;579
+MN;58;0195;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;390;67.36;579
+MN;58;0195;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;181;31.26;579
+MN;58;0195;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;579
+MN;58;0200;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;6;1.97;304
+MN;58;0200;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;221;72.70;304
+MN;58;0200;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;77;25.33;304
+MN;58;0200;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;304
+MN;58;0205;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;7;3.13;224
+MN;58;0205;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;165;73.66;224
+MN;58;0205;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;52;23.21;224
+MN;58;0205;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;224
+MN;58;0207;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;1;2.50;40
+MN;58;0207;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;20;50.00;40
+MN;58;0207;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;19;47.50;40
+MN;58;0207;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;40
+MN;58;0210;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;4;1.78;225
+MN;58;0210;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;103;45.78;225
+MN;58;0210;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;118;52.44;225
+MN;58;0210;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;225
+MN;58;0215;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;4;2.13;188
+MN;58;0215;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;127;67.55;188
+MN;58;0215;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;57;30.32;188
+MN;58;0215;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;188
+MN;58;0221;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;4;4.40;91
+MN;58;0221;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;50;54.95;91
+MN;58;0221;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;37;40.66;91
+MN;58;0221;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;91
+MN;58;0223;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;0;0.00;0
+MN;58;0223;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;0;0.00;0
+MN;58;0223;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;0;0.00;0
+MN;58;0223;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;0
+MN;58;0225;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;1;1.01;99
+MN;58;0225;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;55;55.56;99
+MN;58;0225;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;43;43.43;99
+MN;58;0225;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;99
+MN;58;0230;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;1;1.35;74
+MN;58;0230;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;39;52.70;74
+MN;58;0230;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;34;45.95;74
+MN;58;0230;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;74
+MN;58;0235;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;2;7.69;26
+MN;58;0235;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;12;46.15;26
+MN;58;0235;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;12;46.15;26
+MN;58;0235;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;26
+MN;58;0240;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;10;2.33;430
+MN;58;0240;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;184;42.79;430
+MN;58;0240;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;236;54.88;430
+MN;58;0240;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;430
+MN;69;0025;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;0;0.00;34
+MN;69;0025;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;12;35.29;34
+MN;69;0025;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;22;64.71;34
+MN;69;0025;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;34
+MN;69;0070;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;5;2.60;192
+MN;69;0070;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;85;44.27;192
+MN;69;0070;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;97;50.52;192
+MN;69;0070;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;5;2.60;192
+MN;69;0075;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;1;9.09;11
+MN;69;0075;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;0;0.00;11
+MN;69;0075;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;10;90.91;11
+MN;69;0075;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;11
+MN;69;0135;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;0;0.00;42
+MN;69;0135;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;14;33.33;42
+MN;69;0135;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;28;66.67;42
+MN;69;0135;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;42
+MN;69;0925;0131;State Senator District 11;11;0101;John "Sparky" Birrenbach;;;LMN;1;1;1;2.22;45
+MN;69;0925;0131;State Senator District 11;11;0304;Jason Rarick;;;R;1;1;15;33.33;45
+MN;69;0925;0131;State Senator District 11;11;0402;Stu Lourey;;;DFL;1;1;29;64.44;45
+MN;69;0925;0131;State Senator District 11;11;9901;WRITE-IN**;;;WI;1;1;0;0.00;45
