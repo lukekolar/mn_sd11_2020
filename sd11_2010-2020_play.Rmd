@@ -27,7 +27,7 @@ library(tidyverse)
 ## 2019
 
 precincts_2019_old <- readOGR( 
-  dsn = paste0(getwd(),"/vtd_files/2019vtd/"), 
+  dsn = paste0(getwd(),"/data/vtd_files/2019vtd/"), 
   layer = "bdry_votingdistricts",
   verbose = FALSE) 
 
@@ -39,7 +39,7 @@ precincts_2019 <- st_as_sf(precincts_2019_sp)
 ## 2018
 
 precincts_2018_old <- readOGR( 
-  dsn = paste0(getwd(),"/vtd_files/2018vtd/"), 
+  dsn = paste0(getwd(),"/data/vtd_files/2018vtd/"), 
   layer = "vtd2018general",
   verbose = FALSE) 
 
@@ -51,7 +51,7 @@ precincts_2018 <- st_as_sf(precincts_2018_sp)
 ## 2016
 
 precincts_2016_old <- readOGR( 
-  dsn = paste0(getwd(),"/vtd_files/2016vtd/"), 
+  dsn = paste0(getwd(),"/data/vtd_files/2016vtd/"), 
   layer = "vtd2016general",
   verbose = FALSE) 
 
@@ -63,7 +63,7 @@ precincts_2016 <- st_as_sf(precincts_2016_sp)
 ## 2014
 
 precincts_2014_old <- readOGR( 
-  dsn = paste0(getwd(),"/vtd_files/2014vtd/"), 
+  dsn = paste0(getwd(),"/data/vtd_files/2014vtd/"), 
   layer = "vtd2014general",
   verbose = FALSE) 
 
@@ -75,7 +75,7 @@ precincts_2014 <- st_as_sf(precincts_2014_sp)
 ## 2012
 
 precincts_2012_old <- readOGR( 
-  dsn = paste0(getwd(),"/vtd_files/2012vtd/"), 
+  dsn = paste0(getwd(),"/data/vtd_files/2012vtd/"), 
   layer = "vtd2012general",
   verbose = FALSE) 
 
@@ -127,7 +127,7 @@ elec.col.names <- c("state", "county_id", "precinct_num",
                     "num_precincts_reporting", "total_num_precincts_voting",
                     "candidate_votes", "candidate_percent_vote", "total_race_votes")
 
-prec_2016 <- read.delim("precinct_level_state_leg/2016_reps.txt", 
+prec_2016 <- read.delim("data/precinct_level_state_leg/2016_reps.txt", 
   sep = ";", header = FALSE, col.names = elec.col.names) %>% 
   mutate(precinct_num = sprintf("%04d", precinct_num))
 
@@ -173,7 +173,7 @@ ggplot(prec_elec_map_2012 %>% filter(MNSENDIST == "11"), aes(fill = total_race_v
 
 # 2018 reps
 
-prec_2018 <- read.delim("precinct_level_state_leg/2018_reps.txt", 
+prec_2018 <- read.delim("data/precinct_level_state_leg/2018_reps.txt", 
   sep = ";", header = FALSE, col.names = elec.col.names) %>% 
   mutate(precinct_num = sprintf("%04d", precinct_num))
 
@@ -194,7 +194,7 @@ prec_elec_map_2018 <- precincts_2018 %>%
 
 # 2014 reps
 
-prec_2014 <- read.delim("precinct_level_state_leg/2014_reps.txt", 
+prec_2014 <- read.delim("data/precinct_level_state_leg/2014_reps.txt", 
   sep = ";", header = FALSE, col.names = elec.col.names) %>% 
   mutate(precinct_num = sprintf("%04d", precinct_num))
 
@@ -215,7 +215,7 @@ prec_elec_map_2014 <- precincts_2014 %>%
 
 # 2012 reps
 
-prec_2012 <- read.delim("precinct_level_state_leg/2012_reps.txt", 
+prec_2012 <- read.delim("data/precinct_level_state_leg/2012_reps.txt", 
   sep = ";", header = FALSE, col.names = elec.col.names) %>% 
   mutate(precinct_num = sprintf("%04d", precinct_num))
 
