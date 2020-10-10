@@ -506,18 +506,37 @@ ggplot(rbind((prec_elec_map_2012_sen %>%
                 mutate(column = "2019", overallDFL = 45.9) %>% select(district:overallDFL))), 
        aes(x = DFL_perc, y = total_race_votes, color = DFL_perc)) +
   geom_point(aes()) + facet_wrap(~column) +  scale_color_gradient(low = "red", high  = "blue") +
-  labs(x = "Percentage Voted DFL", y = "Total Votes") + 
+  labs(x = "Percentage Voted DFL", y = "Total Votes", 
+       title = "MN SD11 Total Votes and Percent DFL by Precinct") + 
   geom_vline(aes(xintercept = overallDFL), linetype = "dotted", color = "blue") +
-  theme_minimal() + 
+  geom_label(aes(x = 18, y = 2850, label = column), 
+            size = 4, family = "Verdana", fontface = "bold") +
+  geom_text(aes(color = overallDFL, x = as.numeric(overallDFL), y = 2400, vjust = -0.7, angle = -90,
+                 label = paste0("DFL: ", overallDFL, "%")), size = 3, family = "Verdana") + 
   scale_x_continuous(limits = c(1, 100), expand = c(0, 0)) +
-  scale_y_continuous(limits = c(0,3000), expand = c(0, 0)) +
+  scale_y_continuous(limits = c(0, 3000), expand = c(0, 0)) +
   theme(legend.position = "none",
-        axis.text.y = element_text(angle = 90),
-        axis.text.x = element_text(angle = 0),
-        panel.border = element_blank(),
-        panel.border = element_rect(colour = "black"))
+        panel.grid.minor = element_blank(),
+        axis.text.y = element_text(angle = 45, hjust = 1),
+        axis.text.x = element_text(angle = 45, hjust = 1.1),
+        panel.grid = element_line(color = "light grey"),
+        panel.background = element_blank(),
+        panel.border = element_rect(color = "black", fill = NA),
+        strip.background = element_blank(),
+        strip.text = element_blank(),
+        plot.title = element_text(face = "bold", hjust = 0.5),
+        axis.title = element_text(face = "italic"),
+        text = element_text(family = "Verdana"),
+        axis.title.y = element_text(vjust = 1),
+        panel.spacing = unit(12, "points"))
 
-?geom_vline
+?element_t
+
+?strip.placement
+
+?unit
+
+?geom_label
 
 ```
 
