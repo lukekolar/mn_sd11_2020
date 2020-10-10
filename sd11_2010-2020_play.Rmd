@@ -488,16 +488,6 @@ ggplot(prec_elec_map_2012_sen, aes(fill = total_perc_voted)) +
 
 ```{r}
 
-
-summary(lm(data = prec_elec_map_2019_sen, R_perc ~ reg_voters_eday))
-colnames(prec_elec_map_2019_sen)
-
-rbind
-
-prec_elec_map_2012_sen %>% mutate(column = 2012) %>% select(district:column) %>% colnames()
-prec_elec_map_2016_sen %>% mutate(column = 2012) %>% select(district:column) %>% colnames()
-prec_elec_map_2019_sen %>% mutate(column = 2012) %>% select(district:column) %>% colnames()
-
 ggplot(rbind((prec_elec_map_2012_sen %>% 
                 mutate(column = "2012", overallDFL = 64.3) %>% select(district:overallDFL)), 
              (prec_elec_map_2016_sen %>% 
@@ -530,6 +520,10 @@ ggplot(rbind((prec_elec_map_2012_sen %>%
         axis.title.y = element_text(vjust = 1),
         panel.spacing = unit(12, "points"))
 
+```
+
+
+```{r}
 ?element_t
 
 ?strip.placement
