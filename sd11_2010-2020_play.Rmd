@@ -498,16 +498,26 @@ prec_elec_map_2012_sen %>% mutate(column = 2012) %>% select(district:column) %>%
 prec_elec_map_2016_sen %>% mutate(column = 2012) %>% select(district:column) %>% colnames()
 prec_elec_map_2019_sen %>% mutate(column = 2012) %>% select(district:column) %>% colnames()
 
-ggplot(rbind((prec_elec_map_2012_sen %>% mutate(column = "2012 ") %>% select(district:column)), 
-             (prec_elec_map_2016_sen %>% mutate(column = "2016") %>% select(district:column)), 
-             (prec_elec_map_2019_sen %>% mutate(column = "2019") %>% select(district:column))), 
+ggplot(rbind((prec_elec_map_2012_sen %>% 
+                mutate(column = "2012", overallDFL = 64.3) %>% select(district:overallDFL)), 
+             (prec_elec_map_2016_sen %>% 
+                mutate(column = "2016", overallDFL = 54.6) %>% select(district:overallDFL)), 
+             (prec_elec_map_2019_sen %>% 
+                mutate(column = "2019", overallDFL = 45.9) %>% select(district:overallDFL))), 
        aes(x = DFL_perc, y = total_race_votes, color = DFL_perc)) +
   geom_point(aes()) + facet_wrap(~column) +  scale_color_gradient(low = "red", high  = "blue") +
-  labs(x = "Percentage voted DFL", y = "Total Votes") +
-  theme_minimal() +
+  labs(x = "Percentage Voted DFL", y = "Total Votes") + 
+  geom_vline(aes(xintercept = overallDFL), linetype = "dotted", color = "blue") +
+  theme_minimal() + 
+  scale_x_continuous(limits = c(1, 100), expand = c(0, 0)) +
+  scale_y_continuous(limits = c(0,3000), expand = c(0, 0)) +
   theme(legend.position = "none",
         axis.text.y = element_text(angle = 90),
-        axis.text.x = element_text(angle = 40))
+        axis.text.x = element_text(angle = 0),
+        panel.border = element_blank(),
+        panel.border = element_rect(colour = "black"))
+
+?geom_vline
 
 ```
 
