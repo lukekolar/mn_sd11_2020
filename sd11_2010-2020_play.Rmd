@@ -488,18 +488,51 @@ ggplot(prec_elec_map_2012_sen, aes(fill = total_perc_voted)) +
 
 ```{r}
 
-ggplot(rbind((prec_elec_map_2012_sen %>% 
+
+rbind((prec_elec_map_2012_sen %>% 
                 mutate(column = "2012", overallDFL = 64.3) %>% select(district:overallDFL)), 
              (prec_elec_map_2016_sen %>% 
                 mutate(column = "2016", overallDFL = 54.6) %>% select(district:overallDFL)), 
              (prec_elec_map_2019_sen %>% 
-                mutate(column = "2019", overallDFL = 45.9) %>% select(district:overallDFL))), 
+                mutate(column = "2019", overallDFL = 45.9) %>% select(district:overallDFL))) %>% glimpse()
+
+label.fillers <- tibble(district = c(NA, NA, NA), DFL = c(NA, NA, NA), 
+                        R = c(NA, NA, NA), DFL_perc = c(NA, NA, NA), 
+                        R_perc = c(NA, NA, NA), total_race_votes = c(NA, NA, NA), 
+                        WI = c(NA, NA, NA), state = c("MN", "MN", "MN"), 
+                        precinct_name = c("[filler]", "[filler]", "[filler]"), 
+                        reported = c(NA, NA, NA), reg_voters_7am = c(NA, NA, NA), 
+                        reg_voters_eday = c(NA, NA, NA), num_signatures = c(NA, NA, NA), 
+                        num_reg_absentee = c(NA, NA, NA), 
+                        num_fed_only_absentee = c(NA, NA, NA), 
+                        num_pres_only_absentee = c(NA, NA, NA), 
+                        total_voted = c(NA, NA, NA), total_reg = c(NA, NA, NA), 
+                        total_perc_voted = c(NA, NA, NA), 
+                        total_perc_voted_without_eday = c(NA, NA, NA), 
+                        year = c("2012", "2016", "2019"), overallDFL = c(64.3, 54.6, 45.9), 
+                        year_label = c("2012", "2016", "2019"))
+
+label.fillers %>% rbind((prec_elec_map_2012_sen %>% 
+                mutate(year = "2012", overallDFL = NA, year_label = NA) %>%
+                select(district:year_label)))
+
+prec_elec_map_2012_sen %>% View
+
+ggplot(rbind((as_tibble(prec_elec_map_2012_sen %>% 
+                mutate(year = "2012", overallDFL = NA, year_label = NA)) %>%
+                select(district:year_label) %>% select(!geometry)), 
+             (as_tibble(prec_elec_map_2016_sen %>% 
+                mutate(year = "2016", overallDFL = NA, year_label = NA)) %>%
+                select(district:year_label) %>% select(!geometry)), 
+             (as_tibble(prec_elec_map_2019_sen %>% 
+                mutate(year = "2019", overallDFL = NA, year_label = NA)) %>%
+                select(district:year_label) %>% select(!geometry)), (label.fillers)), 
        aes(x = DFL_perc, y = total_race_votes, color = DFL_perc)) +
-  geom_point(aes()) + facet_wrap(~column) +  scale_color_gradient(low = "red", high  = "blue") +
-  labs(x = "Percentage Voted DFL", y = "Total Votes", 
+  geom_point(aes()) + facet_wrap(~year) +  scale_color_gradient(low = "red", high  = "blue") +
+  labs(x = "Percent Voted DFL", y = "Precinct Total Votes", 
        title = "MN SD11 Total Votes and Percent DFL by Precinct") + 
   geom_vline(aes(xintercept = overallDFL), linetype = "dotted", color = "blue") +
-  geom_label(aes(x = 18, y = 2850, label = column), 
+  geom_label(aes(x = 18, y = 2850, label = year_label), fill = "white", color = "black",
             size = 4, family = "Verdana", fontface = "bold") +
   geom_text(aes(color = overallDFL, x = as.numeric(overallDFL), y = 2400, vjust = -0.7, angle = -90,
                  label = paste0("DFL: ", overallDFL, "%")), size = 3, family = "Verdana") + 
@@ -520,6 +553,8 @@ ggplot(rbind((prec_elec_map_2012_sen %>%
         axis.title.y = element_text(vjust = 1),
         panel.spacing = unit(12, "points"))
 
+
+?geom_label
 ```
 
 
@@ -537,9 +572,64 @@ ggplot(rbind((prec_elec_map_2012_sen %>%
 
 ```{r}
 
+(prec_elec_map_2019_sen %>% 
+                mutate(column = "2012", overallDFL = 64.3) %>% 
+                select(district:overallDFL, geometry)) %>% nrow
 
 
+rbind((prec_elec_map_2012_sen %>% 
+                mutate(column = "2012", overallDFL = 64.3) %>% 
+                select(district:overallDFL, geometry)), 
+             (prec_elec_map_2016_sen %>% 
+                mutate(column = "2016", overallDFL = 54.6) %>% 
+                select(district:overallDFL, geometry)), 
+             (prec_elec_map_2019_sen %>% 
+                mutate(column = "2019", overallDFL = 45.9) %>% 
+                select(district:overallDFL, geometry))) %>% nrow
 
+(prec_elec_map_2012_sen %>% 
+                mutate(column = "2012", overallDFL = 64.3) %>% 
+                select(district:overallDFL, geometry) %>% 
+  cbind(year_label = c("2012", rep(NA, times = 103)),
+        overallDFL_label = c(64.3, rep(NA, times = 103))))
+
+
+ggplot(rbind((prec_elec_map_2012_sen %>% 
+                mutate(year = "2012", overallDFL = 64.3) %>% 
+                select(district:overallDFL, geometry) %>% 
+                cbind(year_label = c("2012", rep(NA, times = 103)),
+                      overallDFL_label = c(64.3, rep(NA, times = 103)))), 
+             (prec_elec_map_2016_sen %>% 
+                mutate(year = "2016", overallDFL = 54.6) %>% 
+                select(district:overallDFL, geometry)) %>% 
+                cbind(year_label = c("2016", rep(NA, times = 102)),
+                      overallDFL_label = c(54.6, rep(NA, times = 102))), 
+             (prec_elec_map_2019_sen %>% 
+                mutate(year = "2019", overallDFL = 45.9) %>% 
+                select(district:overallDFL, geometry) %>% 
+                cbind(year_label = c("2019", rep(NA, times = 102)),
+                      overallDFL_label = c(45.9, rep(NA, times = 102))))), 
+       aes(fill = total_perc_voted)) + geom_sf(color = "grey30", lwd = 0.25) + 
+  theme_void() + scale_fill_gradient(low = "white", high = "purple",
+                                     labels = c("0%", "25%", "50%", "75%", "100%")) + 
+  facet_wrap(~year) + geom_label(aes(y = 46.9, x = -93.25, label = year_label), fill = "NA", 
+                                   size = 4, family = "Verdana", fontface = "bold") + 
+  labs(title = "MN SD11 Registered Voter Turnout by Precinct", 
+       caption = "note: registered voter turnout is not\nthe same as eligible voter turnout") +
+  theme(legend.position = "bottom",
+        strip.text = element_blank(),
+        legend.title = element_blank(),
+        legend.text = element_text(size = 7),
+        plot.title = element_text(face = "bold", hjust = 0.5),
+        text = element_text(family = "Verdana"),
+        legend.key.size = unit(9, "pt"),
+        legend.key.width = unit(25, "pt"),
+        plot.caption = element_text(face = "italic", size = 5, vjust = 5))
+  
+
+
+geom_label(aes(y = 46.9, x = 93.25, label = column), 
+            size = 4, family = "Verdana", fontface = "bold")
 
 ```
 
