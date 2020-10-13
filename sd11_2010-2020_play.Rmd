@@ -19,6 +19,7 @@ library(zipcodeR)
 library(broom)
 library(sf)
 library(janitor)
+library(scales)
 
 library(tidyverse)
 ```
@@ -512,12 +513,6 @@ label.fillers <- tibble(district = c(NA, NA, NA), DFL = c(NA, NA, NA),
                         year = c("2012", "2016", "2019"), overallDFL = c(64.3, 54.6, 45.9), 
                         year_label = c("2012", "2016", "2019"))
 
-label.fillers %>% rbind((prec_elec_map_2012_sen %>% 
-                mutate(year = "2012", overallDFL = NA, year_label = NA) %>%
-                select(district:year_label)))
-
-prec_elec_map_2012_sen %>% View
-
 ggplot(rbind((as_tibble(prec_elec_map_2012_sen %>% 
                 mutate(year = "2012", overallDFL = NA, year_label = NA)) %>%
                 select(district:year_label) %>% select(!geometry)), 
@@ -537,7 +532,7 @@ ggplot(rbind((as_tibble(prec_elec_map_2012_sen %>%
   geom_text(aes(color = overallDFL, x = as.numeric(overallDFL), y = 2400, vjust = -0.7, angle = -90,
                  label = paste0("DFL: ", overallDFL, "%")), size = 3, family = "Verdana") + 
   scale_x_continuous(limits = c(1, 100), expand = c(0, 0)) +
-  scale_y_continuous(limits = c(0, 3000), expand = c(0, 0)) +
+  scale_y_continuous(label = comma, limits = c(0, 3000), expand = c(0, 0)) +
   theme(legend.position = "none",
         panel.grid.minor = element_blank(),
         axis.text.y = element_text(angle = 45, hjust = 1),
@@ -633,6 +628,29 @@ geom_label(aes(y = 46.9, x = 93.25, label = column),
 
 ```
 
+```{r}
+
+rbind((as_tibble(prec_elec_map_2012_sen %>% 
+            mutate(year = "2012")) %>%
+            select(district:year) %>% select(!geometry)), 
+      (as_tibble(prec_elec_map_2016_sen %>% 
+            mutate(year = "2016")) %>%
+            select(district:year) %>% select(!geometry)), 
+      (as_tibble(prec_elec_map_2019_sen %>% 
+            mutate(year = "2019")) %>%
+            select(district:year) %>% select(!geometry))) %>% 
+  pivot_wider(names_from = year, values_from = c(DFL, R, DFL_perc, R_perc, 
+                                                 total_race_votes, WI, reg_voters_7am,
+                                                 reg_voters_eday, num_signatures,
+                                                 num_reg_absentee, num_fed_only_absentee,
+                                                 num_pres_only_absentee, total_voted,
+                                                 total_reg, total_perc_voted,
+                                                 total_perc_voted_without_eday,
+                                                 )) %>% 
+  mutate
+
+
+```
 
 
 
