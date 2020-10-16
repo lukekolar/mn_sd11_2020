@@ -443,49 +443,6 @@ prec_elec_map_2012_sen <- precincts_2012 %>%
 
 ```
 
-```{r}
-
-ggplot(prec_elec_map_2019_sen, aes(fill = R_perc)) + 
-  geom_sf(color = "grey30", lwd = 0.25) + 
-  theme_void() + scale_fill_gradient(low = "white", high = "red") + 
-  labs(title = "2019 State Senate Special Election")
-
-ggplot(prec_elec_map_2016_sen, aes(fill = R_perc)) + 
-  geom_sf(color = "grey30", lwd = 0.25) + 
-  theme_void() + scale_fill_gradient(low = "white", high = "red") + 
-  labs(title = "2016 State Senate Election")
-
-ggplot(prec_elec_map_2012_sen, aes(fill = R_perc)) + 
-  geom_sf(color = "grey30", lwd = 0.25) + 
-  theme_void() + scale_fill_gradient(low = "white", high = "red") + 
-  labs(title = "2012 State Senate Election")
-
-ggplot(prec_elec_map_2019_sen, aes(fill = total_race_votes)) + 
-  geom_sf(color = "grey30", lwd = 0.25) + 
-  theme_void() + scale_fill_gradient(low = "white", high = "purple") + 
-  labs(title = "2019 State Senate Special Election")
-
-ggplot(prec_elec_map_2016_sen, aes(fill = total_race_votes)) + 
-  geom_sf(color = "grey30", lwd = 0.25) + 
-  theme_void() + scale_fill_gradient(low = "white", high = "purple") + 
-  labs(title = "2016 State Senate Election")
-
-ggplot(prec_elec_map_2019_sen, aes(fill = total_perc_voted)) + 
-  geom_sf(color = "grey30", lwd = 0.25) + 
-  theme_void() + scale_fill_gradient(low = "white", high = "blue") + 
-  labs(title = "2019 State Senate Special Election")
-
-ggplot(prec_elec_map_2016_sen, aes(fill = total_perc_voted)) + 
-  geom_sf(color = "grey30", lwd = 0.25) + 
-  theme_void() + scale_fill_gradient(low = "white", high = "blue") + 
-  labs(title = "2016 State Senate Election")
-
-ggplot(prec_elec_map_2012_sen, aes(fill = total_perc_voted)) + 
-  geom_sf(color = "grey30", lwd = 0.25) + 
-  theme_void() + scale_fill_gradient(low = "white", high = "blue") + 
-  labs(title = "2012 State Senate Election")
-
-```
 
 ```{r}
 
@@ -553,25 +510,63 @@ ggplot(rbind((as_tibble(prec_elec_map_2012_sen %>%
 ```
 
 
+
+
+
 ```{r}
-?element_t
-
-?strip.placement
-
-?unit
-
-?geom_label
-
+ggplot(((prec_elec_map_2019_sen %>% 
+                mutate(overallDFL = 64.3) %>% 
+                select(PCTCODE, COUNTYCODE, district:overallDFL, geometry)) %>% 
+  full_join(as.tibble(prec_elec_map_2016_sen %>% 
+                mutate(overallDFL = 64.3) %>% 
+                select(PCTCODE, COUNTYCODE, district:overallDFL, geometry)), 
+            by = c("PCTCODE", "COUNTYCODE"),
+            suffix = c(".19", ".16")) %>% 
+  mutate(total_vote_diff = total_race_votes.19 - total_race_votes.16,
+         total_perc_vote_diff = total_perc_voted.19 - total_perc_voted.16,
+         total_DFL_diff = DFL_perc.19 - DFL_perc.16)), 
+  aes(fill = total_vote_diff)) + geom_sf(color = "grey30", lwd = 0.25) + 
+  theme_void() + 
+  scale_fill_gradient2(low = "red", high = "green")
 ```
 
 
 ```{r}
 
+ggplot(as.tibble((prec_elec_map_2019_sen %>% 
+                mutate(overallDFL = 64.3) %>% 
+                select(PCTCODE, MNLEGDIST, COUNTYCODE, district:overallDFL, geometry)) %>% 
+  full_join(as.tibble(prec_elec_map_2016_sen %>% 
+                mutate(overallDFL = 64.3) %>% 
+                select(PCTCODE, MNLEGDIST, COUNTYCODE, district:overallDFL, geometry)), 
+            by = c("PCTCODE", "COUNTYCODE", "MNLEGDIST"),
+            suffix = c(".19", ".16")) %>% 
+  mutate(total_vote_diff = total_race_votes.19 - total_race_votes.16,
+         total_perc_vote_diff = total_perc_voted.19 - total_perc_voted.16,
+         total_DFL_diff = DFL_perc.19 - DFL_perc.16)), 
+  aes(x = total_vote_diff, y = total_DFL_diff, 
+      color = total_race_votes.19, shape = MNLEGDIST)) + 
+  geom_point() + scale_color_gradient(low = "red", high = "green")
+
+```
+
+
+```{r}
 (prec_elec_map_2019_sen %>% 
-                mutate(column = "2012", overallDFL = 64.3) %>% 
-                select(district:overallDFL, geometry)) %>% nrow
+                mutate(overallDFL = 64.3) %>% 
+                select(PCTCODE, COUNTYCODE, district:overallDFL, geometry)) %>% 
+  full_join(as.tibble(prec_elec_map_2016_sen %>% 
+                mutate(overallDFL = 64.3) %>% 
+                select(PCTCODE, COUNTYCODE, district:overallDFL, geometry)), 
+            by = c("PCTCODE", "COUNTYCODE"),
+            suffix = c(".19", ".16")) %>% 
+  mutate(total_vote_diff = total_race_votes.19 - total_race_votes.16,
+         total_DFL_diff = DFL_perc.19 - DFL_perc.16) %>% View
+
+```
 
 
+```{r}
 rbind((prec_elec_map_2012_sen %>% 
                 mutate(column = "2012", overallDFL = 64.3) %>% 
                 select(district:overallDFL, geometry)), 
@@ -620,8 +615,6 @@ ggplot(rbind((prec_elec_map_2012_sen %>%
         legend.key.size = unit(9, "pt"),
         legend.key.width = unit(25, "pt"),
         plot.caption = element_text(face = "italic", size = 5, vjust = 5))
-  
-
 
 geom_label(aes(y = 46.9, x = 93.25, label = column), 
             size = 4, family = "Verdana", fontface = "bold")
